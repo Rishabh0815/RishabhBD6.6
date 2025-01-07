@@ -20,19 +20,19 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/BD6.6CW/(.*)",
       "destination": "/BD6.6CW/server.js"
     },
     {
-      "source": "/(.*)",
+      "source": "/BD6.6HW1/(.*)",
       "destination": "/BD6.6HW1/server.js"
     },
     {
-      "source": "/(.*)",
+      "source": "/BD6.6HW2/(.*)",
       "destination": "/BD6.6HW2/server.js"
     },
     {
-      "source": "/(.*)",
+      "source": "/BD6.6HW3/(.*)",
       "destination": "/BD6.6HW3/server.js"
     }
   ]
