@@ -1,5 +1,69 @@
 {
   "version": 2,
-  "builds": [{ "src": "BDserver.js", "use": "@vercel/node" }],
-  "rewrites": [{ "source": "/(.*)", "destination": "server.js" }]
+  "projects": [
+    {
+      "src": "BD6.6CW/**",
+      "use": "@vercel/node",
+      "builds": [
+        {
+          "src": "BD6.6CW/server.js",
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "source": "/BD6.6CW/(.*)",
+          "destination": "/BD6.6CW/server.js"
+        }
+      ]
+    },
+    {
+      "src": "BD6.6HW1/**",
+      "use": "@vercel/node",
+      "builds": [
+        {
+          "src": "BD6.6HW1/server.js",
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "source": "/BD6.6HW1/(.*)",
+          "destination": "/BD6.6HW1/server.js"
+        }
+      ]
+    },
+    {
+      "src": "BD6.6HW2/**",
+      "use": "@vercel/node",
+      "builds": [
+        {
+          "src": "BD6.6HW2/server.js",
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "source": "/BD6.6HW2/(.*)",
+          "destination": "/BD6.6HW2/server.js"
+        }
+      ]
+    },
+    {
+      "src": "BD6.6HW3/**",
+      "use": "@vercel/node",
+      "builds": [
+        {
+          "src": "BD6.6HW3/server.js",
+          "use": "@vercel/node"
+        }
+      ],
+      "routes": [
+        {
+          "source": "/BD6.6HW3/(.*)",
+          "destination": "/BD6.6HW3/server.js"
+        }
+      ]
+    }
+  ]
 }
