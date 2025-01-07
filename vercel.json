@@ -18,7 +18,7 @@
       ]
     },
     {
-      "src": "BD6.6HW1/**",
+      "src": "BD6.6HW1/server.js",
       "use": "@vercel/node",
       "builds": [
         {
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "src": "BD6.6HW2/**",
+      "src": "BD6.6HW2/server.js",
       "use": "@vercel/node",
       "builds": [
         {
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "src": "BD6.6HW3/**",
+      "src": "BD6.6HW3/server.js",
       "use": "@vercel/node",
       "builds": [
         {
